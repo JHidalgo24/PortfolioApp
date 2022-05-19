@@ -21,9 +21,8 @@
       <div v-show="dis==='home'">
         <v-row class="align-content-center">
           <v-col >
-            <br>
             <h1 id="hello">Hello!</h1>
-            <h2 id="intro">I'm Justin,
+            <h2 id="intro">I'm Justin,<br>
   A Software and Web Developer based in Wisconsin </h2>
           </v-col>
           <v-col>
@@ -78,15 +77,15 @@ export default {
 }
 
 #hello {
+  padding-left: 20px;
   font-family: 'Koulen', cursive;
   font-size: 90px;
-  color: white;
+  color: darkorange;
   font-weight: bold;
-  background: #FF8C00AA;
   border-radius: 0px 40px 0px 40px;
-  padding-left: 50px;
 }
 #intro{
+  padding-left: 20px;
   font-size: 40px;
 }
 
