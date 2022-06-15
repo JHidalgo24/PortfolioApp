@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <v-app-bar class="pa-3" color="white" elevation="0">
+      <v-app-bar color="white" elevation="0">
         <h2 style="color:black; text-align: left;font-weight: bold;font-size: 35px"> My Portfolio</h2>
         <v-spacer></v-spacer>
         <v-btn text @click="dis = 'home'">
