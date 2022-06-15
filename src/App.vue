@@ -2,18 +2,15 @@
   <v-app>
     <v-main>
       <v-app-bar color="white" elevation="0">
-        <h2 style="color:black; text-align: left;font-weight: bold;font-size: 35px"> My Portfolio</h2>
+        <h2 style="color:black; text-align: left;font-weight: bold"> My Portfolio</h2>
         <v-spacer></v-spacer>
-        <v-btn text @click="dis = 'home'">
-          Home &nbsp;
+        <v-btn icon @click="dis = 'home'">
           <v-icon>mdi-home</v-icon>
         </v-btn>
-        <v-btn text @click="dis = 'contact'">
-          Contact &nbsp;
+        <v-btn icon @click="dis = 'contact'">
           <v-icon>mdi-email</v-icon>
         </v-btn>
-        <v-btn text @click="dis = 'projects'">
-          Projects &nbsp;
+        <v-btn icon  @click="dis = 'projects'">
           <v-icon>mdi-information</v-icon>
         </v-btn>
       </v-app-bar>
